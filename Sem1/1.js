@@ -13,6 +13,7 @@
 Уточнение: пользователь всегда вводит корректное число.
 */
 
+
 const input = Number.parseInt(prompt("Введите температуру в Цельсиях: "));
 const farengeit = (input * 1.8) + 32;
 console.log(`Цельсий: ${input}, Фаренгейт: ${farengeit}`);
